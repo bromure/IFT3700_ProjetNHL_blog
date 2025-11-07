@@ -1,0 +1,70 @@
+/* Landing page sections */
+#intro {
+    text-align: center;
+    margin: 3rem auto;
+    padding: 2rem;
+}
+
+#intro h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#intro p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+#start, #all-posts {
+    margin: 2rem auto;
+    max-width: 700px;
+    padding: 1rem;
+}
+
+#start a.post-link {
+    display: inline-block;
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #bbbbbb;
+    text-decoration: none;
+}
+
+#start a.post-link:hover {
+    text-decoration: underline;
+}
+
+#all-posts ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#all-posts li {
+    margin-bottom: 0.8rem;
+}
+
+/* Older / Newer navigation at bottom of post */
+.post-nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 0;
+    padding-top: 1rem;
+    border-top: 1px solid #eee;
+}
+
+.post-nav a {
+    color: #999999;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.post-nav a:hover {
+    text-decoration: underline;
+}
+
+.sidebar-post-nav.active,
+div.sidebar-post-nav:hover,
+div.sidebar-post-nav:focus {
+  text-decoration: none;
+  background-color: rgba(255,255,255,.1);
+  border-color: transparent;
+}

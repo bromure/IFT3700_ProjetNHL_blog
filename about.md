@@ -4,26 +4,16 @@ title: About
 ---
 
 <p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+  Welcome! This blog showcases our NHL data analysis projects, visualizations, and insights. This project was mentored by Vincent Taboga, professor of IFT3700/6758 @UdeM/Mila.
 </p>
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+The project mentionned throughout the blog is open-source and found [here](https://github.com/bromure/IFT3700_ProjetNHL).
 
-There are currently two themes built on Poole:
+## About the Authors
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+This blog is created by [**Xavier Drolet**](https://www.linkedin.com/in/xavier-drolet), **Alexis Archambault**, and **Cao Hung Nguyen**. We are undergraduate students in Mathematics and Computer Science at the Université de Montréal. 
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+## Get in Touch
 
-## Setup
+Questions, feedback, or collaborations? Contact us at **xavier.drolet.2@umontreal.com**, [...] or via the LinkedIn accounts linked above. 
 
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](https://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Atom](https://atom.io)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!

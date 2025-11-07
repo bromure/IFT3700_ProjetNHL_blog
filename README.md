@@ -1,8 +1,9 @@
-# IFT6758 Blog Post Template
+# IFT3700 - NHL Data Analysis Blog
 
-This blog post template is based off of the [Lanyon](https://github.com/poole/lanyon) template (the original readme can be found at the bottom).
+A collaborative blog documenting the IFT3700 project on NHL statistics and performance analytics.
+This site details our methods, models, visualizations, and findings throughout the data analysis process.
 
-
+This blog post uses a [currated template](https://github.com/udem-ift6758/blogpost-template) based on a [Lanyon](https://github.com/poole/lanyon) template (installation details from the template creators can be found below).
 
 ## Installation
 

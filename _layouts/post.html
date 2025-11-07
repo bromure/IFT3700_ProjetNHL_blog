@@ -8,6 +8,7 @@ layout: default
   {{ content }}
 </div>
 
+
 {% if site.related_posts.size >= 1 %}
 <div class="related">
   <h2>Related posts</h2>
@@ -25,3 +26,17 @@ layout: default
   </ul>
 </div>
 {% endif %}
+
+<div class="post-nav">
+  {% if page.previous %}
+    <a class="newer" href="{{ page.previous.url | absolute_url }}">&larr; Newer</a>
+  {% else %}
+    <span></span>
+  {% endif %}
+
+  {% if page.next %}
+    <a class="older" href="{{ page.next.url | absolute_url }}">Older &rarr;</a>
+  {% else %}
+    <span></span>
+  {% endif %}
+</div>

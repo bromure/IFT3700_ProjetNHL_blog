@@ -45,3 +45,6 @@ bower_components
 # Python stuff
 __pycache__/
 .ipynb_checkpoints/
+
+# Visual Studio Code
+.vscode/

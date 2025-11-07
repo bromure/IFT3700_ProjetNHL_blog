@@ -10,7 +10,21 @@
 
   <nav class="sidebar-nav">
     <a class="sidebar-nav-item{% if page.title == 'Home' %} active{% endif %}" href="{{ '/' | absolute_url }}">Home</a>
+    {% if page.layout == "post" %}
+    <div class="sidebar-nav-item sidebar-post-nav">
+      <span>Read Next / Previous</span>
+      <br>
+        {% if page.previous %}
+          <a href="{{ page.previous.url | absolute_url }}">&larr; Newer: {{ page.previous.title }}</a>
+        {% endif %}
 
+        {% if page.next %}
+          <a href="{{ page.next.url | absolute_url }}">Older: {{ page.next.title }} &rarr;</a>
+        {% endif %}
+    </div>
+    {% endif %}
+
+    
     {% comment %}
       The code below dynamically generates a sidebar nav of pages with
       `layout: page` in the front-matter. See readme for usage.

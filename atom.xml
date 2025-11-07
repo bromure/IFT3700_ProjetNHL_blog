@@ -5,6 +5,7 @@ layout: null
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
+  <!-- Site Title & Links -->
  <title>{{ site.title }}</title>
  <link href="{{ site.url }}{{ site.baseurl }}/atom.xml" rel="self"/>
  <link href="{{ site.url }}{{ site.baseurl }}/"/>
@@ -15,6 +16,7 @@ layout: null
    <email>{{ site.author.email }}</email>
  </author>
 
+   <!-- Blog Posts Entries -->
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
